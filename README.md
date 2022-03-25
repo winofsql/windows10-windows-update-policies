@@ -11,3 +11,9 @@ Windows Registry Editor Version 5.00
 ```
 
 ![image](https://user-images.githubusercontent.com/1501327/160027519-c956f2fa-bf4d-440b-ac54-7b1e32808bea.png)
+
+```bat
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /v ProductVersion /t REG_SZ /d "Windows 10" /f
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /v TargetReleaseVersion /t REG_DWORD /d 1 /f
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /v ProductVersion /t REG_SZ /d 21H2 /f
+```
