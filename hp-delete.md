@@ -14,6 +14,12 @@ sc config "LanWlanWwanSwitchingServiceDSU" start= demand
 sc config "HotKeyServiceDSU" start= demand
 sc config "HPNetworkCap" start= demand
 sc config "HPSysInfoCap" start= demand
+
+sc config "HP Comm Recover" start= demand
+sc config "SecurityUpdateService" start= disabled
+sc config "BrEndpointSvc" start= disabled
+sc config "BrService" start= demand
+sc config "BrRmService" start= demand
 ```
 
 
