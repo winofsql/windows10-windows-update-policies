@@ -1,5 +1,7 @@
 ## HP
 
+![image](https://user-images.githubusercontent.com/1501327/160033928-316ece97-b5bd-478d-b306-db5c3cd4ec0d.png)
+
 ```bat
 reg delete HKEY_CLASSES_ROOT\CLSID\{0DB64048-7207-4864-8417-D5E2A500423D}
 ```
